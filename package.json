@@ -1,0 +1,29 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "jwt implementation sample with hapi",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elizar/jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "token",
+    "api"
+  ],
+  "author": "Elizar Pepino",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/elizar/jwt/issues"
+  },
+  "homepage": "https://github.com/elizar/jwt",
+  "dependencies": {
+    "hapi": "^8.4.0",
+    "hapi-auth-jwt": "^2.1.2",
+    "jsonwebtoken": "^5.0.0"
+  }
+}
